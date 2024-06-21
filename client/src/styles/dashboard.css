@@ -1,0 +1,29 @@
+.dashboard {
+    position: absolute;
+    background-color: #222e50;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    color: #fff;
+    padding: 5px;
+    padding-top: 55px;
+}
+.accountsCard{
+    width : 100%;
+    height : fit-content;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 5px;
+  }
+  .grid-item {
+   height: 80px;
+   color: #fff;
+   /* background-color: red; */
+  }

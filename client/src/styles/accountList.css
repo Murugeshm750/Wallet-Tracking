@@ -1,0 +1,13 @@
+.accountList {
+    position: absolute;
+    background-color: #222e50;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    color: #fff;
+    padding: 5px;
+    padding-top: 40px;
+}
