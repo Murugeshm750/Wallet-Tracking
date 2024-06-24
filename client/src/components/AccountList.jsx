@@ -33,7 +33,7 @@ const AccountList = () => {
 
   return (
         <div className='accountList'>
-        <Header previousPage = {'/addAccount'}/>
+        <Header title = "Account List"/>
                 {userDetails.map((data) => (
                     <List key={data.id} sx={{ width: '100%', maxWidth: 360 }} >
                         <ListItem disablePadding>

@@ -18,6 +18,7 @@ import {
 } from "@mui/material";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import Header from "./Header";
 
 const currencyOptions = [
   { value: "USD", label: "USD - United States Dollar", symbol: "$" },
@@ -99,7 +100,8 @@ const AddAccount = () => {
   return (
     <div>
       <div className="addAccount">
-        {/* <h1>AddAccount</h1> */}
+        <Header title="Add Account"/>
+      {/* <header><h2>Add Account</h2></header> */}
         <form className="addAccountForm" onSubmit={handleSubmit}>
           <div className="inpField" item xs={12}>
             <TextField

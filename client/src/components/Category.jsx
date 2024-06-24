@@ -10,8 +10,8 @@ const Category = () => {
     const { footerDashboard } = location.state ? location.state.shareUserName : {};
   return (
     <div>
-      <Header/>
     <div className='category'>
+    <Header title = "Category"/>
     Category
     </div>
 <Footer footerDashboard ={footerDashboard}/>

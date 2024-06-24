@@ -8,7 +8,7 @@ import Analytics from './components/Analytics';
 import Transaction from './components/Transaction';
 import AddAccount from './components/AddAccount';
 import AccountList from './components/AccountList';
-import Header from './components/Header';
+import AmountFilterCard from './components/AmountFilterCard';
 
 
 
@@ -26,6 +26,8 @@ function App() {
   <Route path='/transaction' element={<Transaction/>}/>
   <Route path='/addaccount' element={<AddAccount/>}/>
   <Route path='/accountList' element={<AccountList/>}/>
+  <Route path='/amountFilterCard' element={<AmountFilterCard/>}/>
+
 
   </Routes>
 </Router>

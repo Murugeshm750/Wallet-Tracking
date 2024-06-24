@@ -1,6 +1,8 @@
 import React from 'react'
 import Footer from './Footer'
 import { useLocation } from 'react-router-dom';
+import Header from './Header'
+
 
 
 const Analytics = () => {
@@ -10,6 +12,7 @@ const Analytics = () => {
   return (
     <div>
     <div className='analytics'>
+    <Header title = "Analytics"/>
     Analytics
     </div>
 <Footer footerDashboard ={footerDashboard}/>
